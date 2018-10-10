@@ -1,0 +1,128 @@
+.menu {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 1000px;
+    background: #171e1c;
+    z-index: 20;
+
+    @media (min-width: map_get($grid-breakpoints, sm)) {
+        height: 100vh;
+        right: auto;
+    }
+    
+    @media (min-width: map_get($grid-breakpoints, lg)) {
+        display: flex;
+    }
+
+    &-nav {
+        position: relative;
+        padding: 40px 20px 40px;
+
+        &-body {
+            margin-bottom: 40px;
+            padding: 30px 40px 10px;
+            background: #1b2321;
+
+            &-list {
+                margin-bottom: 80px;
+
+                li {
+
+                    a {
+                        position: relative;
+                        display: block;
+                        margin-bottom: 35px;
+                        padding-bottom: 10px;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 900;
+                        text-transform: uppercase;
+                        color: #fff;
+                        transition: .5s;
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            left: 50%;
+                            right: 50%;
+                            bottom: 0;
+                            height: 1px;
+                            background: $primary;
+                            transition: .5s;
+                        }
+
+                        &:hover {
+                            color: $primary;
+
+                            &::before {
+                                left: 0;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-contacts {
+
+                &-item {
+                    margin-bottom: 15px;
+
+                    &__link {
+                        color: #cbcbcb;
+                    }
+                }
+            }
+        }
+
+        &-footer {
+
+            &-item {
+                max-width: 260px;
+                font-size: 10px;
+                color: #cbcbcb;
+            }
+        }
+    }
+}
+
+.burger-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 40px;
+    background: #171e1c;
+    z-index: 30;
+
+    @media (min-width: map_get($grid-breakpoints, lg)) {
+        display: none;
+    }
+
+
+    .line {
+        height: 3px;
+        margin-bottom: 8px;
+        background: $primary;
+
+        &--top {
+            width: 24px;
+        }
+
+        &--midlle {
+            width: 27px;
+        }
+
+        &--bottom {
+            width: 20px;
+            background: #fff;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}

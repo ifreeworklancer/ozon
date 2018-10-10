@@ -1,0 +1,25 @@
+$primary: #44ddbb;
+$dark: #2f3743;
+$secondary: #70958a;
+$light: #d8ede8;
+
+$body-color: #333333 !default;
+
+$font-size-base: 1rem;
+$font-family-base: 'Work Sans', Arial, Helvetica, sans-serif;
+$headings-font-family: 'Raleway', sans-serif;
+$headings-font-weight: 900 !default;
+
+$link-hover-decoration: none !default;
+$input-btn-focus-width: 0 !default;
+$input-btn-focus-color: rgba(#fff, 0) !default;
+$input-btn-focus-box-shadow: 0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+$border-width: 1px !default;
+$border-radius: 0;
+$btn-padding-x: 30px;
+$btn-padding-y: 25px;
+
+$h1-font-size:   $font-size-base * 3 !default;
+$h2-font-size:   $font-size-base * 3 !default;
+$h3-font-size:   $font-size-base * 2.25 !default;

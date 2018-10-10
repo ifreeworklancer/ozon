@@ -1,0 +1,81 @@
+.app-header {
+    @extend %pos;
+    bottom: auto;
+    z-index: 999;
+
+    .logo {
+        margin-bottom: 40px;
+    }
+}
+
+.logo {
+
+    &__title {
+        font-weight: normal;
+        line-height: 1;
+    }
+}
+
+.header-social {
+    position: relative;
+
+    &-list {
+        width: auto;
+        
+        &-item {
+            justify-content: center;
+            align-items: center;
+            width: 75px;
+            height: 75px;
+            background: #fff;
+            transition: .5s linear;
+            text-align: center;
+            display: none;
+            cursor: pointer;
+            
+            svg {
+                fill: #333333;
+                transition: .5s;
+            }
+
+            &.active {
+                display: flex;
+            }
+
+            &--share {
+
+                &:hover {
+                    background: $primary;
+                }
+            }
+
+            &--facebook {
+
+                &:hover {
+                    background: #4154a8;
+                }
+            }
+
+            &--instagram {
+
+                &:hover {
+                    background: #BB2BA2;
+                }
+            }
+
+            &--youtube {
+
+                &:hover {
+                    background: #c00;
+                }
+            }
+
+            &:hover {
+
+                svg {
+                    fill: #fff;
+                }
+            }
+        }
+    }
+}
