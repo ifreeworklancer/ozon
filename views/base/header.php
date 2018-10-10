@@ -129,7 +129,4 @@
     </header>
 
     <main>
-
-    <!-- Some text -->
-
     
