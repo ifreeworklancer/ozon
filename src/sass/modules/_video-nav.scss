@@ -1,0 +1,31 @@
+.video-nav {
+
+    &-icon {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        background:#000;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        opacity: .5;
+        cursor: pointer;
+        transition: .5s;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 49%;
+            left: 52.5%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 6px 0 6px 12px;
+            border-color: transparent transparent transparent #fff;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

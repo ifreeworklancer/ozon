@@ -3,6 +3,16 @@
     max-height: 1000px;
     background: url('../images/bg/header-banner-bg.jpg') 50% 50% /cover no-repeat;
 
+    .video-nav {
+        position: absolute;
+        left: 75px;
+        bottom: 50px;
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            bottom: -20px;
+        }
+    }
+
     &::before {
         content: '';
         @extend %pos;
@@ -38,6 +48,10 @@
         position: relative;
         padding-bottom: 30px;
         max-width: 410px;
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            padding-bottom: 15px;
+        }
 
         &::before {
             content: '';
