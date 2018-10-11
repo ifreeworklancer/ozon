@@ -1,0 +1,21 @@
+.value {
+    font-family: 'Raleway', sans-serif;
+
+    .old-price {
+        font-size: 18px;
+        font-weight: normal;
+        color: #b6b6b6;
+        line-height: 1;
+    }
+
+    .new-price {
+        font-size: 36px;
+        font-weight: 900;
+        color: #fff;
+
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            font-size: 24px;
+        }
+    }
+}

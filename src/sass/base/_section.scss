@@ -1,3 +1,25 @@
 section {
     position: relative;
+    overflow: hidden;
+}
+
+.section-description {
+    position: relative;
+    padding-left: 45px;
+    color: #818181;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        font-size: 14px;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 1px;
+        background: #818181;
+    }
 }

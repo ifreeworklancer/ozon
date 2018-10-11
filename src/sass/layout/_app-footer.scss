@@ -1,0 +1,69 @@
+#app-footer {
+    padding: 100px 0 15px;
+    background: url('../images/bg/footer-bg.jpg') 50% 50% /cover no-repeat;
+}
+
+.footer-item {
+
+    &-list {
+
+        &-item {
+            font-size: 18px;
+
+            &__link {
+                font-size: 18px;
+                color: #333;
+            }
+        }
+    }
+}
+
+.footer-social-list {
+
+    &-item {
+
+        svg {
+            fill: #fff;
+            transition: .5s;
+        }
+
+        &--facebook {
+
+            &:hover {
+
+                svg {
+                    fill: #4154a8;
+                }
+            }
+        }
+
+        &--instagram {
+
+            &:hover {
+
+                svg {
+                    fill: #BB2BA2;
+                }
+            }
+        }
+
+        &--youtube {
+
+            &:hover {
+
+                svg {
+                    fill: #c00;
+                }
+            }
+        }
+    }
+}
+
+
+.footer-copyr {
+
+    &-item {
+        padding: 0 30px;
+        font-size: 12px;
+    }
+}

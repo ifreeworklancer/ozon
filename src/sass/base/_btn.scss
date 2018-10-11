@@ -24,11 +24,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 15px;
-            height: 25px;
             background-size: contain;
             background-repeat: no-repeat;
-            background-image: url(data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1wcmVmaXg9ImZhcyIgZGF0YS1pY29uPSJkb2xsYXItc2lnbiIgY2xhc3M9InN2Zy1pbmxpbmUtLWZhIGZhLWRvbGxhci1zaWduIGZhLXctOSIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODggNTEyIj48cGF0aCBmaWxsPSIjNDRkZGJiIiBkPSJNMjA5LjIgMjMzLjRsLTEwOC0zMS42Qzg4LjcgMTk4LjIgODAgMTg2LjUgODAgMTczLjVjMC0xNi4zIDEzLjItMjkuNSAyOS41LTI5LjVoNjYuM2MxMi4yIDAgMjQuMiAzLjcgMzQuMiAxMC41IDYuMSA0LjEgMTQuMyAzLjEgMTkuNS0ybDM0LjgtMzRjNy4xLTYuOSA2LjEtMTguNC0xLjgtMjQuNUMyMzggNzQuOCAyMDcuNCA2NC4xIDE3NiA2NFYxNmMwLTguOC03LjItMTYtMTYtMTZoLTMyYy04LjggMC0xNiA3LjItMTYgMTZ2NDhoLTIuNUM0NS44IDY0LTUuNCAxMTguNy41IDE4My42YzQuMiA0Ni4xIDM5LjQgODMuNiA4My44IDk2LjZsMTAyLjUgMzBjMTIuNSAzLjcgMjEuMiAxNS4zIDIxLjIgMjguMyAwIDE2LjMtMTMuMiAyOS41LTI5LjUgMjkuNWgtNjYuM0MxMDAgMzY4IDg4IDM2NC4zIDc4IDM1Ny41Yy02LjEtNC4xLTE0LjMtMy4xLTE5LjUgMmwtMzQuOCAzNGMtNy4xIDYuOS02LjEgMTguNCAxLjggMjQuNSAyNC41IDE5LjIgNTUuMSAyOS45IDg2LjUgMzB2NDhjMCA4LjggNy4yIDE2IDE2IDE2aDMyYzguOCAwIDE2LTcuMiAxNi0xNnYtNDguMmM0Ni42LS45IDkwLjMtMjguNiAxMDUuNy03Mi43IDIxLjUtNjEuNi0xNC42LTEyNC44LTcyLjUtMTQxLjd6Ij48L3BhdGg+PC9zdmc+);
             transition: .5s;
         }
 
@@ -44,6 +41,24 @@
             border-width: 10px 15px 10px 0;
             border-color: transparent #273430 transparent transparent;
         }
+
+        &--buy {
+
+            &::before {
+                width: 15px;
+                height: 25px;
+                background-image: url(data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1wcmVmaXg9ImZhcyIgZGF0YS1pY29uPSJkb2xsYXItc2lnbiIgY2xhc3M9InN2Zy1pbmxpbmUtLWZhIGZhLWRvbGxhci1zaWduIGZhLXctOSIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODggNTEyIj48cGF0aCBmaWxsPSIjNDRkZGJiIiBkPSJNMjA5LjIgMjMzLjRsLTEwOC0zMS42Qzg4LjcgMTk4LjIgODAgMTg2LjUgODAgMTczLjVjMC0xNi4zIDEzLjItMjkuNSAyOS41LTI5LjVoNjYuM2MxMi4yIDAgMjQuMiAzLjcgMzQuMiAxMC41IDYuMSA0LjEgMTQuMyAzLjEgMTkuNS0ybDM0LjgtMzRjNy4xLTYuOSA2LjEtMTguNC0xLjgtMjQuNUMyMzggNzQuOCAyMDcuNCA2NC4xIDE3NiA2NFYxNmMwLTguOC03LjItMTYtMTYtMTZoLTMyYy04LjggMC0xNiA3LjItMTYgMTZ2NDhoLTIuNUM0NS44IDY0LTUuNCAxMTguNy41IDE4My42YzQuMiA0Ni4xIDM5LjQgODMuNiA4My44IDk2LjZsMTAyLjUgMzBjMTIuNSAzLjcgMjEuMiAxNS4zIDIxLjIgMjguMyAwIDE2LjMtMTMuMiAyOS41LTI5LjUgMjkuNWgtNjYuM0MxMDAgMzY4IDg4IDM2NC4zIDc4IDM1Ny41Yy02LjEtNC4xLTE0LjMtMy4xLTE5LjUgMmwtMzQuOCAzNGMtNy4xIDYuOS02LjEgMTguNCAxLjggMjQuNSAyNC41IDE5LjIgNTUuMSAyOS45IDg2LjUgMzB2NDhjMCA4LjggNy4yIDE2IDE2IDE2aDMyYzguOCAwIDE2LTcuMiAxNi0xNnYtNDguMmM0Ni42LS45IDkwLjMtMjguNiAxMDUuNy03Mi43IDIxLjUtNjEuNi0xNC42LTEyNC44LTcyLjUtMTQxLjd6Ij48L3BhdGg+PC9zdmc+);
+            }
+        }
+
+        &--send {
+
+            &::before {
+                width: 25px;
+                height: 20px;
+                background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzM0LjUgMzM0LjUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMzNC41IDMzNC41OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZmlsbD0iIzQ0ZGRiYiIgZD0iTTMzMi43OTcsMTMuNjk5Yy0xLjQ4OS0xLjMwNi0zLjYwOC0xLjYwOS01LjQwNC0wLjc3NkwyLjg5MywxNjMuNjk1Yy0xLjc0NywwLjgxMi0yLjg3MiwyLjU1NS0yLjg5Myw0LjQ4MXMxLjA2NywzLjY5MywyLjc5Nyw0LjU0Mmw5MS44MzMsNDUuMDY4YzEuNjg0LDAuODI3LDMuNjkyLDAuNjQsNS4xOTYtMC40ODRsODkuMjg3LTY2LjczNGwtNzAuMDk0LDcyLjFjLTEsMS4wMjktMS41MSwyLjQzOC0xLjQsMy44NjhsNi45NzksOTAuODg5YzAuMTU1LDIuMDE0LDEuNTA1LDMuNzM2LDMuNDI0LDQuMzY3YzAuNTEzLDAuMTY4LDEuMDQsMC4yNSwxLjU2MSwwLjI1YzEuNDI5LDAsMi44MTktMC42MTMsMy43ODYtMS43MzNsNDguNzQyLTU2LjQ4Mmw2MC4yNTUsMjguNzljMS4zMDgsMC42MjUsMi44MjIsMC42NTEsNC4xNTEsMC4wNzNjMS4zMjktMC41NzksMi4zNDEtMS43MDUsMi43NzUtMy4wODdMMzM0LjI3LDE4Ljk1NkMzMzQuODY0LDE3LjA2NiwzMzQuMjg1LDE1LjAwNSwzMzIuNzk3LDEzLjY5OXoiLz48L3N2Zz4=);
+            }
+        }
     }
 
 
@@ -52,9 +67,20 @@
         .btn-icon {
             width: 100%;
 
-            &::before {
-                width: 25px;
-                height: 35px;
+            &--buy {
+
+                &::before {
+                    width: 25px;
+                    height: 35px;
+                }
+            }
+
+            &--send {
+
+                &::before {
+                    width: 35px;
+                    height: 30px;
+                }
             }
         }
     }

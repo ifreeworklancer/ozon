@@ -1,0 +1,33 @@
+#ratings-and-reviews {
+    padding: 160px 0 0;
+
+    .decor-img {
+        position: absolute;
+        right: -165px;
+        bottom: 0;
+        width: 100%;
+        max-width: 500px;
+        height: 970px;
+        @extend %img;
+    }
+}
+
+.ratings-item {
+    margin-bottom: 90px;
+}
+
+.reviews-item {
+    position: relative;
+    padding: 70px 0 110px;
+
+    height: 650px; //hack
+
+    &::before {
+        content: '';
+        position: absolute;
+        @extend %pos;
+        left: -800px;
+        right: -800px;
+        background: #e7fffa;
+    }
+}
