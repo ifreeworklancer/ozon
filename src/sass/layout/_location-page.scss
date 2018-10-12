@@ -1,0 +1,142 @@
+.location-page-tabs {
+    position: relative;
+
+    &-header {
+
+        &-list {
+            position: relative;
+            margin-bottom: 15px;
+
+            &-item {
+                position: relative;
+                padding-bottom: 30px;
+                font-size: 30px;
+                color: #8c9592;
+                cursor: pointer;
+
+                @media (max-width: map_get($grid-breakpoints, md)) {
+                    padding-bottom: 15px;
+                    margin-bottom: 30px;
+                }
+
+                &.active {
+
+                    &::before {
+                        right: 0;
+                        background: $primary;
+                    }
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    right: 100%;
+                    bottom: 0;
+                    height: 4px;
+                    background: transparent;
+                    transition: .5s;
+
+                    @media (max-width: map_get($grid-breakpoints, md)) {
+                        background: #8c9592;
+                    }
+                }
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 4px;
+                background: #8c9592;
+
+                @media (max-width: map_get($grid-breakpoints, md)) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &-body {
+
+        &-row {
+            display: flex;
+
+            @media (max-width: map_get($grid-breakpoints, md)) {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        &-item {
+            display: none;
+            overflow: hidden;
+
+            &.active {
+                display: block;
+                overflow: visible;
+            }
+
+            &-title {
+                position: relative;
+                margin-bottom: 20px;
+                padding: 15px 0;
+                padding-right: 15px;
+                display: inline-block;
+                color: #fffefe;
+                z-index: 4;
+
+                &::before {
+                    content: '';
+                    @extend %pos;
+                    left: -115px;
+                    background: #273430;
+                    z-index: -3;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    right: -21px;
+                    bottom: 0;
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 27px 0 27px 21px;
+                    border-color: transparent transparent transparent #273430;
+                }
+            }
+
+            &-list {
+                margin-right: 190px;
+
+                @media (max-width: map_get($grid-breakpoints, md)) {
+                    margin-right: 0;
+                }
+
+                &-cell {
+                    position: relative;
+                    padding-left: 40px;
+                    margin-bottom: 15px;
+                    font-size: 18px;
+                    font-weight: 300;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        top: 5px;
+                        left: 0;
+                        width: 20px;
+                        height: 20px;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiM0NGRkYmIiIGQ9Ik0yNTYsODkuMzY5TDEzMS42NiwzNzMuMTY3TDI1NiwzMDQuNzMybDEyNC4zNCw2OC40MzVMMjU2LDg5LjM2OXogTTI0MSwyNzguNzQzbC00Ni40MDgsMjUuNTQzTDI0MSwxOTguMzYyVjI3OC43NDN6IE0yNzEsMTk4LjM2M2w0Ni40MDgsMTA1LjkyNEwyNzEsMjc4Ljc0NFYxOTguMzYzeiIvPjxwYXRoIGZpbGw9IiM0NGRkYmIiIGQ9Ik0yNTYsMEMxMTQuODQxLDAsMCwxMTQuODQxLDAsMjU2czExNC44NDEsMjU2LDI1NiwyNTZzMjU2LTExNC44NDEsMjU2LTI1NlMzOTcuMTU5LDAsMjU2LDB6IE0yNTYsNDgyQzEzMS4zODMsNDgyLDMwLDM4MC42MTcsMzAsMjU2UzEzMS4zODMsMzAsMjU2LDMwczIyNiwxMDEuMzgzLDIyNiwyMjZTMzgwLjYxNyw0ODIsMjU2LDQ4MnoiLz48L3N2Zz4=);
+                    }
+                }
+            }
+        }
+    }
+}

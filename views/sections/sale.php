@@ -10,7 +10,7 @@
                             cleand while your kids at school!!!
                         </h2>
                         <div class="sale-item-description d-flex flex-column flex-md-row align-items-center">
-                            <a href="#" class="btn btn-primary text-white mr-4">
+                            <a href="#" class="btn btn--buy btn-primary text-white mr-4">
                                 <div class="btn-icon btn-icon--buy"></div>
                                 BUY SERVICE
                             </a>

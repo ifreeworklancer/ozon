@@ -116,19 +116,19 @@
                     <div class="col-sm-7 col-xl-5 mx-auto ml-lg-auto mr-xl-0 my-4 my-xl-0">
                         <ul class="footer-item-list list-unstyled d-flex justify-content-between align-items-center">
                             <li class="footer-item-list-item footer-item-list-item--card">
-                                <img src="images/content/footer/card/card-item-1.png" alt="">
+                                <img src="../images/content/footer/card/card-item-1.png" alt="">
                             </li>
                             <li class="footer-item-list-item footer-item-list-item--card">
-                                <img src="images/content/footer/card/card-item-2.png" alt="">
+                                <img src="../images/content/footer/card/card-item-2.png" alt="">
                             </li>
                             <li class="footer-item-list-item footer-item-list-item--card">
-                                <img src="images/content/footer/card/card-item-3.png" alt="">
+                                <img src="../images/content/footer/card/card-item-3.png" alt="">
                             </li>
                             <li class="footer-item-list-item footer-item-list-item--card">
-                                <img src="images/content/footer/card/card-item-4.png" alt="">
+                                <img src="../images/content/footer/card/card-item-4.png" alt="">
                             </li>
                             <li class="footer-item-list-item footer-item-list-item--card">
-                                <img src="images/content/footer/card/card-item-5.png" alt="">
+                                <img src="../images/content/footer/card/card-item-5.png" alt="">
                             </li>
                         </ul>
                     </div>
@@ -177,7 +177,7 @@
     
     
     <!-- Script -->
-    <script src="dist/app.js"></script>
+    <script src="../dist/app.js"></script>
     </body>
     
     </html>

@@ -1,0 +1,44 @@
+.breadcrumb {
+    position: relative;
+    padding-bottom: 15px;
+    display: inline-flex;
+    
+    &-item {
+
+        a {
+            position: relative;
+            padding-bottom: 15px;
+            color: #878686;
+            transition: .5s;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 100%;
+                bottom: -3px;
+                height: 2px;
+                transition: .5s;
+            }
+
+            &:hover {
+                color: #333333;
+
+                &::before {
+                    right: 0;
+                    background: $primary;
+                }
+            }
+        }
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        background: #ebebeb;
+    }
+}

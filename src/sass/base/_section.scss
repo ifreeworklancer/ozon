@@ -23,3 +23,12 @@ section {
         background: #818181;
     }
 }
+
+.section-text-link {
+    color: #1d3521;
+    border-bottom: 1px solid #1d3521;
+
+    &:hover {
+        border-color: $primary;
+    }
+}

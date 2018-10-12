@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ozon</title>
+    <title>Ozon Secondary</title>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Work+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/app.css">
+    <link rel="stylesheet" href="../dist/app.css">
 </head>
 
-<body>
+<body class="body-secondary">
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="facebook-icon" viewBox="0 0 448 512">
@@ -38,19 +38,24 @@
     </svg>
 
     <!-- Header Main -->
-    <header id="app-header" class="app-header">
+    <header id="app-header" class="app-header app-header--secondary">
         <div class="container p-0">
 
             <div class="burger-menu">
-                    <div class="line line--top"></div>
-                    <div class="line line--midlle"></div>
-                    <div class="line line--bottom"></div>
+                <div class="line line--top"></div>
+                <div class="line line--midlle"></div>
+                <div class="line line--bottom"></div>
             </div>
-            
+
+            <a href="#" class="logo logo--prev text-white text-center">
+                <h1 class="logo__title m-0 text-uppecrace">OZON</h1>
+                <div class="logo__description">AirDuctCleaning</div>
+            </a>
+
             <div class="menu">
                 <nav class="menu-nav">
                     <div class="menu-nav-header">
-                        <a href="#" class="logo text-white text-center d-block">
+                        <a href="#" class="logo text-white text-center">
                             <h1 class="logo__title m-0 text-uppecrace">OZON</h1>
                             <div class="logo__description">AirDuctCleaning</div>
                         </a>
@@ -58,7 +63,7 @@
                     <div class="menu-nav-body text-center">
                         <ul class="menu-nav-body-list list-unstyled">
                             <li>
-                                <a href="/page/about.php">About us</a>
+                                <a href="#">About us</a>
                             </li>
                             <li>
                                 <a href="#">Services</a>
@@ -67,10 +72,10 @@
                                 <a href="#">FAQ</a>
                             </li>
                             <li>
-                                <a href="/page/Location.php">Location</a>
+                                <a href="#">Location</a>
                             </li>
                             <li>
-                                <a href="/page/contacts.php">Contacts</a>
+                                <a href="#">Contacts</a>
                             </li>
                         </ul>
                         <div class="menu-nav-body-contacts">
@@ -91,42 +96,51 @@
                 </nav>
             </div>
 
-            <div class="col-3 col-sm-1 ml-auto mr-0 pl-0 pr-2">
-                <div class="header-social">
-                    <ul class="header-social-list list-unstyled">
-                        <li class="header-social-list-item header-social-list-item--share active">
-                            <a href="#">
-                                <svg width="20" height="20">
-                                    <use xlink:href="#share-icon"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="header-social-list-item header-social-list-item--facebook">
-                            <a href="#">
-                                <svg width="20" height="20">
-                                    <use xlink:href="#facebook-icon"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="header-social-list-item header-social-list-item--instagram">
-                            <a href="#">
-                                <svg width="20" height="20">
-                                    <use xlink:href="#instagram-icon"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="header-social-list-item header-social-list-item--youtube">
-                            <a href="#">
-                                <svg width="20" height="20">
-                                    <use xlink:href="#youtube-icon"></use>
-                                </svg>
-                            </a>
+            <div class="row w-100 d-flex justify-content-end">
+                <div class="col-4 col-sm-2 mt-4 mr-0 mr-sm-5 p-0">
+                    <ul class="header-contacts-list list-unstyled">
+                        <li class="header-contacts-list-item">
+                            <a href="tel:+18003628302" class="header-contacts-list-item__link">1-800-362-8302</a>
                         </li>
                     </ul>
+                </div>
+
+                <div class="col-3 col-sm-1 pl-0 pr-0 pr-sm-2 d-flex justify-content-end">
+                    <div class="header-social">
+                        <ul class="header-social-list list-unstyled">
+                            <li class="header-social-list-item header-social-list-item--share active">
+                                <a href="#">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#share-icon"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header-social-list-item header-social-list-item--facebook">
+                                <a href="#">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#facebook-icon"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header-social-list-item header-social-list-item--instagram">
+                                <a href="#">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#instagram-icon"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header-social-list-item header-social-list-item--youtube">
+                                <a href="#">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#youtube-icon"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-    

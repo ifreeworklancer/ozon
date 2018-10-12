@@ -8,7 +8,7 @@ require_once('../views/base/header-secondary.php');
 
 <section id="services-page" style="background-image: url('../images/bg/about-page-bg.jpg');" class="page-secondary">
     <div class="container">
-
+        
     </div>
 </section>
 

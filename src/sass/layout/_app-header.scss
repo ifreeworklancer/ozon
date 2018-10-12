@@ -6,13 +6,43 @@
     .logo {
         margin-bottom: 40px;
     }
+
+    &--secondary {
+        height: 85px;
+        background: rgba(#ebebeb, .3);
+
+        &.is-fixed {
+            position: fixed;
+        }
+    }
 }
 
 .logo {
+    display: block;
 
     &__title {
         font-weight: normal;
         line-height: 1;
+    }
+
+    &--prev {
+        position: absolute;
+        top: 50%;
+        left: 160px;
+        transform: translateY(-50%);
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            display: none;
+        }
+
+        .logo__title {
+            font-size: 30px;
+        }
+
+        .logo__description {
+            font-size: 10px;
+            color: #333;
+        }
     }
 }
 
@@ -21,7 +51,7 @@
 
     &-list {
         width: auto;
-        
+
         &-item {
             justify-content: center;
             align-items: center;
@@ -32,7 +62,7 @@
             text-align: center;
             display: none;
             cursor: pointer;
-            
+
             svg {
                 fill: #333333;
                 transition: .5s;

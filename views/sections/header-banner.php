@@ -12,7 +12,7 @@
                     We made it our goal to make proper air duct cleaning service affordable, so every family can have
                     desired air quality in the house!
                 </p>
-                <a href="#" class="btn btn-primary text-white">
+                <a href="#" class="btn btn--buy btn-primary text-white">
                     <div class="btn-icon btn-icon--buy"></div>
                     BUY SERVICE
                 </a>

@@ -28,7 +28,7 @@
                         <input type="text" class="form-control position-relative" id="user-phone--order">
                     </div>
                     
-                    <button class="btn btn-primary text-white">
+                    <button class="btn btn--send btn-primary text-white">
                         <div class="btn-icon btn-icon--send"></div>
                         to send
                     </button>

@@ -1,0 +1,19 @@
+#about-page {
+    background: #000;
+}
+
+.about-page-img {
+    position: relative;
+
+    &--certificates {
+        top: -60px;
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            top: 0;
+        }
+    }
+}
+
+.about-page__text {
+    margin-bottom: 50px;
+}

@@ -29,7 +29,7 @@
                                 $299
                             </div>
                         </div>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn--buy btn-primary">
                             <div class="btn-icon btn-icon--buy"></div>
                             BUY SERVICE
                         </a>
@@ -47,7 +47,7 @@
                                 $349
                             </div>
                         </div>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn--buy btn-primary">
                             <div class="btn-icon btn-icon--buy"></div>
                             BUY SERVICE
                         </a>
@@ -65,7 +65,7 @@
                                 $550
                             </div>
                         </div>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn--buy btn-primary">
                             <div class="btn-icon btn-icon--buy"></div>
                             BUY SERVICE
                         </a>
@@ -83,7 +83,7 @@
                                 $99
                             </div>
                         </div>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn--buy btn-primary">
                             <div class="btn-icon btn-icon--buy"></div>
                             BUY SERVICE
                         </a>
