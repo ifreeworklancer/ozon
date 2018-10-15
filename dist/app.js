@@ -2036,9 +2036,9 @@ window.jQuery = window.$ = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
         $(this).toggleClass('active');
 
         if (!menu.is(':visible')) {
-            menu.slideDown('is-active').css('display', 'flex');
+            menu.slideDown().css('display', 'flex');
         } else {
-            menu.slideUp('is-active');
+            menu.slideUp();
         }
     });
 
@@ -2072,6 +2072,24 @@ window.jQuery = window.$ = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
     $('.location-page-tabs-header-list').on('click', 'li:not(.active)', function () {
         $(this).addClass('active').siblings().removeClass('active').closest('.location-page-tabs', '').find('.location-page-tabs-body-item').removeClass('active').eq($(this).index()).addClass('active');
     });
+
+    /**
+     * Fixed header
+     */
+
+    var wh = $(window).height();
+    var burgerMenu = $('.burger-menu');
+    var menu = $('.menu');
+
+    if ('.app-header--main') {
+
+        if ($(window).width() > 768) {
+
+            $(window).on('scroll', function () {
+                console.log(wh);
+            });
+        }
+    }
 })(jQuery);
 
 /**

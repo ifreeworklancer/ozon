@@ -17,9 +17,9 @@ import 'flickity/dist/flickity.css';
         $(this).toggleClass('active');
 
         if (!menu.is(':visible')) {
-            menu.slideDown('is-active').css('display', 'flex');
+            menu.slideDown().css('display', 'flex');
         } else {
-            menu.slideUp('is-active');
+            menu.slideUp();
         }
     });
 
@@ -55,6 +55,25 @@ import 'flickity/dist/flickity.css';
             .addClass('active').siblings().removeClass('active')
             .closest('.location-page-tabs', '').find('.location-page-tabs-body-item').removeClass('active').eq($(this).index()).addClass('active');
     });
+
+    /**
+     * Fixed header
+     */
+
+    var wh = $(window).height();
+    var burgerMenu = $('.burger-menu');
+    var menu = $('.menu');
+
+    if('.app-header--main') {
+
+        if ($(window).width() > 768) {
+
+            $(window).on('scroll', function () {
+                console.log(wh) 
+            });
+        }
+    }
+
 
 })(jQuery)
 

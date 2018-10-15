@@ -22,3 +22,10 @@
         box-shadow: 0px 14px 20px 4px rgba(0, 0, 0, 0.13);
     }
 }
+
+.page-banner {
+    @extend %pos;
+    bottom: auto;
+    @extend %img;
+    padding-top: 950px;
+}

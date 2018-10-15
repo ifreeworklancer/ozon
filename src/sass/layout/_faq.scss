@@ -1,0 +1,15 @@
+.faq-page-item {
+    position: relative;
+    margin-bottom: 40px;
+
+    &__title {
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+
+    &__description {
+        font-size: 18px;
+    }
+}

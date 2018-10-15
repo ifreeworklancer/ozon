@@ -20,7 +20,7 @@ require_once('../views/base/header-secondary.php');
                         </ol>
                     </nav>
 
-                    <h2 class="section-title">
+                    <h2 class="section-title mb-4">
                         FAQ
                     </h2>
 
@@ -29,8 +29,8 @@ require_once('../views/base/header-secondary.php');
             <div class="row">
                 <div class="col-12">
                     <div class="faq-page-item">
-                        <div class="faq-page-item__title">Why should I have my Air Ducts cleaned?</div>
-                        <p class="faq-page-item-description">
+                        <h3 class="faq-page-item__title">Why should I have my Air Ducts cleaned?</h3>
+                        <p class="faq-page-item__description">
                             There are several reasons why you should get your air duct system cleaned:
                             1. Improving indoor air quality is one of the most common and important reasons for
                             cleaning your air ducts. This will reduce allergies and decrease breathing problems for
@@ -42,8 +42,8 @@ require_once('../views/base/header-secondary.php');
                         </p>
                     </div>
                     <div class="faq-page-item">
-                        <div class="faq-page-item__title">How should Air Duct system be cleaned?</div>
-                        <p class="faq-page-item-description">
+                        <h3 class="faq-page-item__title">How should Air Duct system be cleaned?</h3>
+                        <p class="faq-page-item__description">
                             Source removal method is the most effective way to clean your air duct system. This method
                             entails putting the system under the negative pressure by connecting powerful HEPA vacuum
                             to the main trunk line and sealing the vents to direct the pressure to desired point. Then
@@ -53,36 +53,36 @@ require_once('../views/base/header-secondary.php');
                         </p>
                     </div>
                     <div class="faq-page-item">
-                        <div class="faq-page-item__title">How often should residential Air Duct system be cleaned?</div>
-                        <p class="faq-page-item-description">
+                        <h3 class="faq-page-item__title">How often should residential Air Duct system be cleaned?</h3>
+                        <p class="faq-page-item__description">
                             By NADCA standards usual time for Air Duct system to be cleaned is every 3-5 years.
                         </p>
                     </div>
                     <div class="faq-page-item">
-                        <div class="faq-page-item__title">Why your price for the service is cheaper than the other
-                            companies?</div>
-                        <p class="faq-page-item-description">
+                        <h3 class="faq-page-item__title">Why your price for the service is cheaper than the other
+                            companies?</h3>
+                        <p class="faq-page-item__description">
                             We made it our goal to make proper air duct cleaning service affordable, so every family
                             can have desired air quality in the house!
                         </p>
                     </div>
                     <div class="faq-page-item">
-                        <div class="faq-page-item__title">Are you certified for the job?</div>
-                        <p class="faq-page-item-description">
+                        <h3 class="faq-page-item__title">Are you certified for the job?</h3>
+                        <p class="faq-page-item__description">
                             Yes we are. You are more than welcome to check our company on NADCA website.
                         </p>
                     </div>
                     <div class="faq-page-item">
-                        <div class="faq-page-item__title">How long will it take to perform residential air duct
-                            cleaning?</div>
-                        <p class="faq-page-item-description">
+                        <h3 class="faq-page-item__title">How long will it take to perform residential air duct
+                            cleaning?</h3>
+                        <p class="faq-page-item__description">
                             The are several factors that impact the time of Air Duct cleaning process. But on average
                             the process will take 2-3 hours.
                         </p>
                     </div>
                     <div class="faq-page-item">
-                        <div class="faq-page-item__title">Will there be dust in the house during the process?</div>
-                        <p class="faq-page-item-description">
+                        <h3 class="faq-page-item__title">Will there be dust in the house during the process?</h3>
+                        <p class="faq-page-item__description">
                             Not at all. We will seal all the vents in your house with sealing tape, while the HEPA
                             vacuum will be connected to your system creating negative pressure, leaving no chance for
                             the dust to be blown back into your house.

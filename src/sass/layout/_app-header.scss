@@ -10,10 +10,22 @@
     &--secondary {
         height: 85px;
         background: rgba(#ebebeb, .3);
+    }
 
-        &.is-fixed {
-            position: fixed;
+    &.is-fixed {
+        position: fixed;
+
+        .burger-menu {
+            display: block;
         }
+
+        .menu {
+            display: none;
+        }
+    }
+
+    .menu {
+        display: flex;
     }
 }
 

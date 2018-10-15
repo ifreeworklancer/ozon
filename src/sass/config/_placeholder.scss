@@ -11,3 +11,38 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
+// @mixin header-with-line($color) {
+//     width: 100%;
+//     font-weight: bold;
+//     text-transform: uppercase;
+//     color: $dark;
+//     text-align: left;
+//     display: table;
+//     white-space: nowrap;
+//     overflow: hidden;
+
+//     &:before,
+//     &:after {
+//         border-top: 15px solid $color;
+//         content: '';
+//         display: table-cell;
+//         position: relative;
+//         top: 0.5em;
+//         width: 10%;
+//     }
+
+//     &:after {
+//         width: 50%;
+//     }
+
+//     &:before {
+//         left: -40px;
+//         right: 1.5%;
+//     }
+
+//     &:after {
+//         left: 1.5%;
+//         right: -105px;
+//     }
+// }

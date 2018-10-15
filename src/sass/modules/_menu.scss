@@ -125,9 +125,11 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 110px;
     padding: 30px 40px;
     background: #171e1c;
     z-index: 30;
+    cursor: pointer;
     transition: .3s;
 
     @media (min-width: map_get($grid-breakpoints, lg)) {
@@ -142,22 +144,33 @@
         height: 3px;
         margin-bottom: 8px;
         background: $primary;
+        transition: .4s;
 
         &--top {
             width: 24px;
+            transition-delay: .2s;
         }
 
         &--midlle {
             width: 27px;
+            transition-delay: .35s;
         }
 
         &--bottom {
             width: 20px;
             background: #fff;
+            transition-delay: .45s;
         }
 
         &:last-of-type {
             margin-bottom: 0;
+        }
+    }
+
+    &:hover {
+
+        .line {
+            width: 30px;
         }
     }
 }

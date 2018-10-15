@@ -38,7 +38,7 @@
     </svg>
 
     <!-- Header Main -->
-    <header id="app-header" class="app-header">
+    <header id="app-header" class="app-header app-header--main">
         <div class="container p-0">
 
             <div class="burger-menu">
@@ -61,10 +61,10 @@
                                 <a href="/page/about.php">About us</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="/page/services-page.php">Services</a>
                             </li>
                             <li>
-                                <a href="#">FAQ</a>
+                                <a href="/page/faq.php">FAQ</a>
                             </li>
                             <li>
                                 <a href="/page/Location.php">Location</a>

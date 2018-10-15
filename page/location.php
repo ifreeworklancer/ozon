@@ -14,7 +14,7 @@ require_once('../views/base/header-secondary.php');
 
                     <nav>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Main</a></li>
+                            <li class="breadcrumb-item"><a href="/">Main</a></li>
                             <li class="breadcrumb-item"><a href="#">location</a></li>
                         </ol>
                     </nav>
