@@ -10280,6 +10280,10 @@ section {
   color: #333;
 }
 
+.logo--fixed .logo__title {
+  color: #2f3743;
+}
+
 .logo--fixed::before {
   content: '';
   position: absolute;
@@ -10287,7 +10291,7 @@ section {
   left: -100px;
   right: -65px;
   bottom: -25px;
-  background: rgba(235, 235, 235, 0.4);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .header-social {
