@@ -45,7 +45,14 @@
                     <div class="line line--top"></div>
                     <div class="line line--midlle"></div>
                     <div class="line line--bottom"></div>
+                    <div class="line line--left"></div>
+                    <div class="line line--right"></div>
             </div>
+
+             <a href="/" class="logo logo--fixed logo--prev text-white text-center">
+                <h1 class="logo__title m-0 text-uppecrace">OZON</h1>
+                <div class="logo__description">AirDuctCleaning</div>
+            </a>
             
             <div class="menu">
                 <nav class="menu-nav">

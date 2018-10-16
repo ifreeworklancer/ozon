@@ -61,15 +61,39 @@ import 'flickity/dist/flickity.css';
      */
 
     var wh = $(window).height();
+    var header = $('.app-header');
     var burgerMenu = $('.burger-menu');
     var menu = $('.menu');
 
-    if('.app-header--main') {
+    if ($('#app-header').is(':visible')) {
 
         if ($(window).width() > 768) {
 
             $(window).on('scroll', function () {
-                console.log(wh) 
+                if ($(this).scrollTop() > 900) {
+                    $(header).addClass('is-fixed');
+                    if (!$(burgerMenu).hasClass('active')) {
+                        menu.css('display', 'none');
+                    } else {
+                        menu.css('display', 'flex');
+                    }
+                } else if ($(this).scrollTop() < 900) {
+                    $(header).removeClass('is-fixed');
+                    $(burgerMenu).removeClass('active')
+                    menu.css('display', 'flex');
+                }
+            });
+        }
+    } else if (!$('#app-header').is(':visible')) {
+        
+        if ($(window).width() > 768) {
+
+            $(window).on('scroll', function () {
+                if ($(this).scrollTop() > 900) {
+                    $(header).addClass('is-fixed');
+                } else if ($(this).scrollTop() < 600) {
+                    $(header).removeClass('is-fixed');
+                }
             });
         }
     }

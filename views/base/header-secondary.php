@@ -38,13 +38,15 @@
     </svg>
 
     <!-- Header Main -->
-    <header id="app-header" class="app-header app-header--secondary">
+    <header id="app-header-secondary" class="app-header app-header--secondary">
         <div class="container p-0">
 
             <div class="burger-menu">
                 <div class="line line--top"></div>
                 <div class="line line--midlle"></div>
                 <div class="line line--bottom"></div>
+                <div class="line line--left"></div>
+                <div class="line line--right"></div>
             </div>
 
             <a href="#" class="logo logo--prev text-white text-center">

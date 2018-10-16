@@ -138,6 +138,26 @@
 
     &.active {
         background: transparent;
+
+        .line {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 30px;
+            height: 3px;
+            transition-delay: 0s;
+            display: none;
+
+            &--left {
+                transform: translate(-50%, -50%) rotate(-45deg);
+                display: block;
+            }
+
+            &--right {
+                transform: translate(-50%, -50%) rotate(45deg);
+                display: block;
+            }
+        }
     }
 
     .line {
@@ -160,6 +180,20 @@
             width: 20px;
             background: #fff;
             transition-delay: .45s;
+        }
+
+        &--left {
+            position: absolute;
+            width: 0;
+            height: 0;
+            transition: .5s;
+        }
+
+        &--right {
+            position: absolute;
+            width: 0;
+            height: 0;
+            transition: .5s;
         }
 
         &:last-of-type {

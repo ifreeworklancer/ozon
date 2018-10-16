@@ -23,10 +23,6 @@
             display: none;
         }
     }
-
-    .menu {
-        display: flex;
-    }
 }
 
 .logo {
@@ -54,6 +50,19 @@
         .logo__description {
             font-size: 10px;
             color: #333;
+        }
+    }
+
+    &--fixed {
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -40px;
+            left: -100px;
+            right: -65px;
+            bottom: -25px;
+            background: rgba(#ebebeb, .4);
         }
     }
 }
