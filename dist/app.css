@@ -11224,3 +11224,28 @@ section {
     font-size: 14px;
   }
 }
+
+.thanks-page-title {
+  font-size: 60px;
+}
+
+@media (max-width: 576px) {
+  .thanks-page-title {
+    font-size: 48px;
+  }
+}
+
+.thanks-page-text {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.error-page-title {
+  font-size: 200px;
+}
+
+@media (max-width: 576px) {
+  .error-page-title {
+    font-size: 120px;
+  }
+}

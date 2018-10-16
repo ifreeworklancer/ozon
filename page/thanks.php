@@ -4,9 +4,9 @@ require_once('../views/base/header-secondary.php');
 
 ?>
 
-<!-- error-page -->
+<!-- Thanks-page -->
 
-<section id="error-page" class="page-secondary">
+<section id="thanks-page" class="page-secondary">
     <div class="page-banner" style="background-image: url('../images/bg/about-page-bg.jpg');"></div>
     <div class="container">
         <div class="page-secondary-content">
@@ -16,7 +16,7 @@ require_once('../views/base/header-secondary.php');
                     <nav>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="/">Main</a></li>
-                            <li class="breadcrumb-item"><a href="#">404</a></li>
+                            <li class="breadcrumb-item"><a href="#">Thanks</a></li>
                         </ol>
                     </nav>
 
@@ -25,11 +25,12 @@ require_once('../views/base/header-secondary.php');
 
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="thanks-page-title">
-                        404!
+                    <h1 class="thanks-page-title mb-3">
+                        Thank You!
                     </h1>
-                    <div class="thanks-page-text">
-                        error
+
+                    <div class="thanks-page-text mb-5">
+                        Our manager will contact with You
                     </div>
 
                     <a href="/" class="btn btn--send btn-primary text-white">

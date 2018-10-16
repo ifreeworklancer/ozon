@@ -1,0 +1,12 @@
+.thanks-page-title {
+    font-size: 60px;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        font-size: 48px;
+    }
+}
+
+.thanks-page-text {
+    font-size: 24px;
+    font-weight: 300;
+}

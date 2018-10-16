@@ -7,7 +7,7 @@ require_once('../views/base/header-secondary.php');
 <!-- error-page -->
 
 <section id="error-page" class="page-secondary">
-    <div class="page-banner" style="background-image: url('../images/bg/about-page-bg.jpg');"></div>
+    <div class="page-banner" style="background-image: url('../images/bg/services-page-bg.jpg');"></div>
     <div class="container">
         <div class="page-secondary-content">
             <div class="row">
@@ -25,12 +25,9 @@ require_once('../views/base/header-secondary.php');
 
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="thanks-page-title">
-                        404!
+                    <h1 class="error-page-title mb-5">
+                        404
                     </h1>
-                    <div class="thanks-page-text">
-                        error
-                    </div>
 
                     <a href="/" class="btn btn--send btn-primary text-white">
                         <div class="btn-icon btn-icon--send"></div>

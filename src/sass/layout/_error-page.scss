@@ -1,0 +1,7 @@
+.error-page-title {
+    font-size: 200px;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        font-size: 120px;
+    }
+}
