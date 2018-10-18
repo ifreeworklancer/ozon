@@ -88,13 +88,19 @@ require_once('../views/base/header-secondary.php');
                 </div>
                 <div class="col-8 col-sm-2 mx-auto mx-sm-0">
                     <div class="about-page-img about-page-img--ratings mb-4">
-                        <img src="../images/content/about/page/ratings/ratings-item-1.png" alt="ratings">
+                        <a href="#" class="d-block">
+                            <img src="../images/content/about/page/ratings/ratings-item-1.png" alt="ratings">
+                        </a>
                     </div>
                     <div class="about-page-img about-page-img--ratings mb-4">
-                        <img src="../images/content/about/page/ratings/ratings-item-2.png" alt="ratings">
+                        <a href="#" class="d-block">
+                            <img src="../images/content/about/page/ratings/ratings-item-2.png" alt="ratings">
+                        </a>
                     </div>
                     <div class="about-page-img about-page-img--ratings">
-                        <img src="../images/content/about/page/ratings/ratings-item-3.png" alt="ratings">
+                        <a href="#" class="d-block">
+                            <img src="../images/content/about/page/ratings/ratings-item-3.png" alt="ratings">
+                        </a>
                     </div>
                 </div>
             </div>
