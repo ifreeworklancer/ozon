@@ -13,22 +13,34 @@
                 </div>
                 <div class="ratings-item d-flex justify-content-between align-items-center">
                     <div class="ratings-item-img">
-                        <img src="images/content/ratings-and-reviews/ratings/ratings-item-1.png" alt="">
+                        <a href="#" class="d-block">
+                            <img src="images/content/ratings-and-reviews/ratings/ratings-item-1.png" alt="">
+                        </a>
                     </div>
                     <div class="ratings-item-img">
-                        <img src="images/content/ratings-and-reviews/ratings/ratings-item-2.png" alt="">
+                        <a href="#" class="d-block">
+                            <img src="images/content/ratings-and-reviews/ratings/ratings-item-2.png" alt="">
+                        </a>
                     </div>
                     <div class="ratings-item-img">
-                        <img src="images/content/ratings-and-reviews/ratings/ratings-item-3.png" alt="">
+                        <a href="#" class="d-block">
+                            <img src="images/content/ratings-and-reviews/ratings/ratings-item-3.png" alt="">
+                        </a>
                     </div>
                     <div class="ratings-item-img">
-                        <img src="images/content/ratings-and-reviews/ratings/ratings-item-4.png" alt="">
+                        <a href="#" class="d-block">
+                            <img src="images/content/ratings-and-reviews/ratings/ratings-item-4.png" alt="">
+                        </a>
                     </div>
                     <div class="ratings-item-img">
-                        <img src="images/content/ratings-and-reviews/ratings/ratings-item-5.png" alt="">
+                        <a href="#" class="d-block">
+                            <img src="images/content/ratings-and-reviews/ratings/ratings-item-5.png" alt="">
+                        </a>
                     </div>
                     <div class="ratings-item-img">
-                        <img src="images/content/ratings-and-reviews/ratings/ratings-item-6.png" alt="">
+                        <a href="#" class="d-block">
+                            <img src="images/content/ratings-and-reviews/ratings/ratings-item-6.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
